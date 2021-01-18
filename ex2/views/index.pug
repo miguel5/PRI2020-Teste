@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 Teste PRI - 2020/2021
+  ul.w3-ul
+    li 
+      a(href='/') Home
+    ul
+      each val in lista
+        li= 'Código: ' + val.codigo + '; Título: ' + val.titulo

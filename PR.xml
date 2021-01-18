@@ -10,6 +10,11 @@
     <numero>a76936</numero>
     <email>a76936@alunos.uminho.pt</email>
     <ex1-3>
-         
+        mongoimport --db pri --collection casamentos --type json --file casamentos-fixed.json --jsonArray
+        Com esta linha de código foi automaticamente criada a coleção 'casamentos' na base de dados 'pri' com os ficheiros contidos no ficheiro JSON.
+        A flag '--jsonArray' indica que estamos a tentar importar um array de objectos. 
     </ex1-3>
+    <ex2-1>
+        - pm.test("test 1", function () {console.log(pm.response.json().length)}); executando este comando nos testes do Postman obtemos o resultado 842
+    </ex2-1>
 </project-record>

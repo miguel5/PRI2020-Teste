@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= 'Titulo - ' + lista.titulo 
+  ul.w3-ul
+    ul
+      li= 'Código: ' + lista.codigo
+      li= 'Descrição: ' + lista.descricao
+      if lista.filhos
+        li Filhos:
+        ul
+          each f in lista.filhos
+                ul
+                    li= 'Código: ' + f.codigo
+                    li= 'Título: ' + f.titulo
+                    li= 'ID: ' + f.id
+                    li= 'Status: ' + f.status
