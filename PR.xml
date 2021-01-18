@@ -9,6 +9,13 @@
     </nome>
     <numero>a76936</numero>
     <email>a76936@alunos.uminho.pt</email>
+    <ex0>
+        Dentro da consola do mongo, usei o comando 'use pri', que criou uma nova base de dados chamada 'pri'. A importação encontra-se descrita no #ex1-3
+        Para executar ambas as aplicações basta usar 'npm start app.js' nas respetivas diretorias. Eventualmente pode ser necessário a execução de 'npm install' previamente
+    </ex0>
+    <ex1-2>
+        Usei o ficheiro casamentos-fixed.json
+    </ex1-2>
     <ex1-3>
         mongoimport --db pri --collection casamentos --type json --file casamentos-fixed.json --jsonArray
         Com esta linha de código foi automaticamente criada a coleção 'casamentos' na base de dados 'pri' com os ficheiros contidos no ficheiro JSON.
