@@ -21,8 +21,11 @@
         Com esta linha de código foi automaticamente criada a coleção 'casamentos' na base de dados 'pri' com os ficheiros contidos no ficheiro JSON.
         A flag '--jsonArray' indica que estamos a tentar importar um array de objectos. 
     </ex1-3>
-    <ex2-1>
+    <ex2-0>
         - pm.test("test 1", function () {console.log(pm.response.json().length)}); executando este comando nos testes do Postman obtemos o resultado 842
+    </ex2-0>
+    <ex2-1>
+        O token foi recolhido através do Postman, com um POST http://clav-api.di.uminho.pt/v2/users/login com os dados fornecido no body.
     </ex2-1>
     <ex2-4>
         Apesar de a página inicial não redirecionar para a página das classes estas encontram-se presentes em '/{código da classe}'
