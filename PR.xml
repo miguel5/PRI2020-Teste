@@ -24,4 +24,7 @@
     <ex2-1>
         - pm.test("test 1", function () {console.log(pm.response.json().length)}); executando este comando nos testes do Postman obtemos o resultado 842
     </ex2-1>
+    <ex2-4>
+        Apesar de a página inicial não redirecionar para a página das classes estas encontram-se presentes em '/{código da classe}'
+    </ex2-4>
 </project-record>
